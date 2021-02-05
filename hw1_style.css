@@ -1,0 +1,63 @@
+/* hw1_style.css */
+p {
+	margin-left: 200px;
+}
+h2 {
+	text-align: center;
+	font-family: Verdana;
+}
+h4 {
+	text-align: center;
+}
+hr {
+	margin-top: 20px;
+	width: 65%;
+}
+div {
+	border-radius: 5px;
+}
+body  {
+	background-color: #b3e6ff;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 140px;
+	height: 200px;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border-spacing: 0;
+	width: 50%;
+	border: 0px;
+}
+
+th, td {
+	text-align: center;
+	padding: 10px;
+}
+tr:nth-child(odd) {
+    background-color: #e6ffe6;
+}
+tr:nth-child(even) {
+    background-color: #ffe6ff;
+}
+ul {
+	margin-left: 200px;
+}
+ol.a {
+	margin-left: 200px;
+	list-style-type: disc;
+}
+
+ol.b {
+	margin-left: 200px;
+	list-style-type: decimal;
+}
+.word {
+	color: red;
+	font-weight: bold;
+}
